@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "administratorLogin": {
+      "value": "sqladmin"
+    },
+    "administratorLoginPassword": {
+      "value": null
+    },
+    "collation": {
+      "value": "SQL_Latin1_General_CP1_CI_AS"
+    },
+    "databaseName": {
+      "value": "TESTING-DB"
+    },
+    "edition": {
+      "value": "Standard"
+    },
+    "location": {
+      "value": "eastus2"
+    },
+    "maxSizeBytes": {
+      "value": "268435456000"
+    },
+    "requestedServiceObjectiveId": {
+      "value": "1b1ebd4d-d903-4baa-97f9-4ea675f5e928"
+    },
+    "sampleName": {
+      "value": ""
+    },
+    "serverName": {
+      "value": "testing-sql"
+    }
+  }
+}
